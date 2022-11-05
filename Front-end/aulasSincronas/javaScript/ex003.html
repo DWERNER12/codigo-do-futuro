@@ -11,12 +11,13 @@ Faça um programa que resolva esta operação
 -->
 <script>
     
-    let y = prompt('Valor de y: ')
-    let t = prompt('Valor de t: ')
-    let t2 = prompt('Valor de T: ')
-    let h = prompt('Valor de h: ')
-    let o = prompt('Valor de o: ')
-    let resultado = parseFloat(y) + 5 * 9 / 7 + (parseFloat(h) - parseFloat(t) / parseFloat(t2) + parseFloat(o)) - 5 * 100
-
+    let y = Number(prompt('Valor de y: '))
+    let t = Number(prompt('Valor de t: '))
+    let t2 = Number(prompt('Valor de T: '))
+    let h = Number(prompt('Valor de h: '))
+    let o = Number(prompt('Valor de o: '))
+    //let resultado = parseFloat(y) + 5 * 9 / 7 + (parseFloat(h) - parseFloat(t) / parseFloat(t2) + parseFloat(o)) - 5 * 100
+    let resultado = y + 5 * 9 / 7 + (h - t / t2 + o) - 5 * 100
+    
     alert(`A rotação da terra é: ${resultado}`)
 </script>
