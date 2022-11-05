@@ -1,0 +1,22 @@
+<!--
+Roberto é reitor da faculdade São Judas, ele precisa de um software para saber a média dos alunos.
+Quantidade de notas 4, faça um programa e de um resultado.
+Critério de aprovação: nota maior ou igual a 5
+-->
+<script>
+  let nomeDoAluno = prompt(`Qual o nome do aluno:`);
+  let primeiraNota = Number(prompt(`Informe a primeira nota: `));
+  let segundaNota = Number(prompt(`Informe a segunda nota: `));
+  let terceiraNota = Number(prompt(`Informe a terceira nota: `));
+  let quartaNota = Number(prompt(`Informe a Quarta nota:`));
+
+  let media = (primeiraNota + segundaNota + terceiraNota + quartaNota) / 4
+
+  if(media >= 5){
+    alert(`O aluna ${nomeDoAluno}, esta aprovado!`)
+  }else{
+    alert(`O aluna ${nomeDoAluno}, esta reprovado!
+    Media menor que 5...`)
+  }
+
+</script>
