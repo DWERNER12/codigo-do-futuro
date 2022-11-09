@@ -1,0 +1,79 @@
+<!--Biana é uma pessoa muito indecisa
+e precisa juntar dinheiro para conseguir em suas férias viajar
+ela terá algumas opções a escolher com seus respectivos valores
+
+Disney = R$ 15000
+Madrid = R$ 12000
+Maceió = R$ 8000
+Ribeirão preto = R$ 5000
+
+Faça um programa que solicite o nome do usuário
+o valor que o usuário tem para a viagem
+a viagem que o usuário deseja e mostre no final do programa
+se o usuário pode viajar ou se ele não pode.
+Se ele não poder viajar, mostre o quanto falta para o mesmo economizar.-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let nome = prompt("Qual o seu nome?");
+      let valor = Number(
+        prompt(`Olá ${nome}
+        Qual o valor que você pode gastar? `)
+      );
+      let viagem = parseInt(
+        prompt(`Qual destino?
+                         1) Disney
+                         2) Madrid
+                         3) Maceió
+                         4) Ribeirão Preto
+         `)
+      );
+
+      let valorViagem = 0;
+
+      switch (viagem) {
+        case 1:
+          valorViagem = 15000;
+          break;
+        case 2:
+          valorViagem = 12000;
+          break;
+        case 3:
+          valorViagem = 8000;
+          break;
+        case 4:
+          valorViagem = 5000;
+          break;
+      }
+
+      if (valorViagem < 1) {
+        alert(`Valor invalido!`);
+      }
+
+      let valorSobra = valor - valorViagem;
+      if (valorSobra > 0) {
+        valorSobra = valorSobra * -1;
+        alert(
+          `${nome}, seu saldo é insuficiente para comprar viagem: falta ${valorSobra.toLocaleString(
+            "pt-br",
+            { style: "currency", currency: "BRL" }
+          )}`
+        );
+      } else {
+        alert(
+          `${nome}, seu saldo é suficiente para comprar viagem e você ainda tem: ${valorSobra.toLocaleString(
+            "pt-br",
+            { style: "currency", currency: "BRL" }
+          )}`
+        );
+      }
+    </script>
+  </body>
+</html>
