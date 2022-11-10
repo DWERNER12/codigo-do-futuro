@@ -1,0 +1,15 @@
+{
+  "name": "ex007",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ex007.js",
+  "scripts": {
+    "start": "node ex007.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}

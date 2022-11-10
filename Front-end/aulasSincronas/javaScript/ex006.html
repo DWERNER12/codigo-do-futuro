@@ -7,11 +7,12 @@
     <title>EX006</title>
   </head>
   <body>
+    <div id = "saida"></div>
     <script>
-      n1 = Number(prompt(`Informe o número inicial: `));
-      nFinal = Number(prompt(`Informe o número final:`));
-
-      for (let num = n1; num <= nFinal; num++) {
+      let nInicial = Number(prompt(`Informe o número inicial: `));
+      let nFinal = Number(prompt(`Informe o número final:`));
+      pares = []
+      for (let num = nInicial; num <= nFinal; num++) {
         num % 2 === 0 ? alert(`Os parer são: ${num}`) : null;
       }
     </script>
