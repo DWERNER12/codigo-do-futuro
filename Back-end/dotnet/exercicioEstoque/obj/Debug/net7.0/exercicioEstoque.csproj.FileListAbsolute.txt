@@ -1,0 +1,15 @@
+C:\Users\David Werner\Documents\David\Cursos\dotnet\exercicioEstoque\bin\Debug\net7.0\exercicioEstoque.exe
+C:\Users\David Werner\Documents\David\Cursos\dotnet\exercicioEstoque\bin\Debug\net7.0\exercicioEstoque.deps.json
+C:\Users\David Werner\Documents\David\Cursos\dotnet\exercicioEstoque\bin\Debug\net7.0\exercicioEstoque.runtimeconfig.json
+C:\Users\David Werner\Documents\David\Cursos\dotnet\exercicioEstoque\bin\Debug\net7.0\exercicioEstoque.dll
+C:\Users\David Werner\Documents\David\Cursos\dotnet\exercicioEstoque\bin\Debug\net7.0\exercicioEstoque.pdb
+C:\Users\David Werner\Documents\David\Cursos\dotnet\exercicioEstoque\obj\Debug\net7.0\exercicioEstoque.csproj.AssemblyReference.cache
+C:\Users\David Werner\Documents\David\Cursos\dotnet\exercicioEstoque\obj\Debug\net7.0\exercicioEstoque.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\David Werner\Documents\David\Cursos\dotnet\exercicioEstoque\obj\Debug\net7.0\exercicioEstoque.AssemblyInfoInputs.cache
+C:\Users\David Werner\Documents\David\Cursos\dotnet\exercicioEstoque\obj\Debug\net7.0\exercicioEstoque.AssemblyInfo.cs
+C:\Users\David Werner\Documents\David\Cursos\dotnet\exercicioEstoque\obj\Debug\net7.0\exercicioEstoque.csproj.CoreCompileInputs.cache
+C:\Users\David Werner\Documents\David\Cursos\dotnet\exercicioEstoque\obj\Debug\net7.0\exercicioEstoque.dll
+C:\Users\David Werner\Documents\David\Cursos\dotnet\exercicioEstoque\obj\Debug\net7.0\refint\exercicioEstoque.dll
+C:\Users\David Werner\Documents\David\Cursos\dotnet\exercicioEstoque\obj\Debug\net7.0\exercicioEstoque.pdb
+C:\Users\David Werner\Documents\David\Cursos\dotnet\exercicioEstoque\obj\Debug\net7.0\exercicioEstoque.genruntimeconfig.cache
+C:\Users\David Werner\Documents\David\Cursos\dotnet\exercicioEstoque\obj\Debug\net7.0\ref\exercicioEstoque.dll
